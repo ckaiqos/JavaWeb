@@ -1,0 +1,8 @@
+CREATE DATABASE teste;   
+USE teste;  
+
+CREATE TABLE pessoa(
+idPessoa INT AUTO_INCREMENT PRIMARY KEY, 
+idade INT,      
+nome VARCHAR(200)
+);
